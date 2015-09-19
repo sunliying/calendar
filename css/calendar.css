@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-09-19 13:51:30
+ * @version $Id$
+ */
+ol{
+	list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.input{
+	position: relative;
+}
+#calendar{
+	display: none;
+	width: 210px;
+	background-color:green;
+	box-shadow: 5px 5px 2px green;
+	position: absolute;
+	z-index: 1001;
+	top: 30px;
+	left: 70px;
+}
+#calendar h3{
+	height: 26px;	
+	margin-top: 2px; 
+	margin-bottom: 2px;
+	background-color: yellow;
+}
+#calendar h3 div {
+	text-align: center;
+	width: 90px;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 26px;
+	display: inline-block;	
+	background-color: blue;
+}
+#calendar h3 span{
+	font-size: 12px;
+	cursor: pointer;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+}
+#calendar h3 span:hover{
+	color: blue;
+}
+#calendar h3 .prev{
+    margin-right: 45px;
+}
+#calendar h3 .next{
+    margin-left: 45px;
+}
+#calendar ol li{
+	text-align: center;
+	line-height: 26px;
+	font-weight: bold;
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+	box-shadow: 1px 1px 1px #000;
+	margin: 2px;
+	color: darkblue;
+	background-color: #9cc9fa;
+	cursor: pointer;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+}
+
